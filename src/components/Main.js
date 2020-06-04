@@ -11,6 +11,7 @@ const Main = () => {
         <div className="boxMain">
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/Pizza-shop" component={Home} />
                 <Route path="/Pizza" component={FullPizza} />
                 <Route path="/Form" component={Form} />
                 <Route exact path="/Contact" component={Contact} />

@@ -4,7 +4,7 @@ import '../style/Home.css';
 
 const Home = () => {
     return (
-        <div class="slider">
+        <div className="slider">
             <ul>
                 <li>
                     <h2>BIENVENIDOS A PIZZERIA ACAMICA</h2>
